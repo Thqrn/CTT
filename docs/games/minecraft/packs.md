@@ -18,8 +18,6 @@ All blocks, one pixel of a certain color
 
 This is a bunch of overlays for pvp that think outside the box, type `ov3` to search them
 
-* <https://modrinth.com/resourcepack/ov3rlay/versions?c=release>
-
 ![](/assets/images/games/minecraft/packs/ov3rlay-search.webp){width="688" height="387"}
 
 ### [operation black sky](https://cdn.modrinth.com/data/ur6MjJTP/versions/l1nOvEku/ov3rlay%20operation%20black%20sky.zip)
@@ -69,3 +67,5 @@ same as above but with no saturation
 <iframe width="688" height="387" src="https://www.youtube-nocookie.com/embed/WSjUyKIeAvs?color=white" frameborder=0 allowfullscreen></iframe>
 [![](https://i.ytimg.com/vi/-F41Zd-8rtk/maxresdefault.jpg){width="688" height="387"}](https://youtu.be/-F41Zd-8rtk)
 [![](https://i.ytimg.com/vi/Jx1gMKKE03I/maxresdefault.jpg){width="688" height="387"}](https://youtu.be/Jx1gMKKE03I)
+
+Also see the pack tutorial archive: <https://discord.gg/H5QEeSzkwm>

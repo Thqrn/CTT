@@ -18,14 +18,17 @@ nav:
     - video/index.md
     - Which codec should I use?: video/codecguide.md
     - Send To: video/sendto.md
+    - mpv ↗: software/mpv.md
 
     - FFmpeg scripts:
       - video/ffmpeg/index.md
       - Upscaling: video/ffmpeg/upscaling.md
       - Tmix: video/ffmpeg/tmix.md
+      - Misc. scripts: video/ffmpeg/misc-scripts.md
 
     - Video cutters:
       - video/cutters/index.md
+      - suckless-cut ↗: https://github.com/couleur-tweak-tips/suckless-cut
       - Avidemux: video/cutters/avidemux.md
       - LosslessCut: video/cutters/losslesscut.md
 
@@ -70,11 +73,24 @@ nav:
     - Hall of Fame:
       - Everything: software/everything.md
       - Espanso: software/espanso.md
-      - Scoop: software/scoop.md
-      - Winget: software/winget.md
       - Windows Terminal: software/windows-terminal.md
       - Visual Studio IDEs: software/visual-studio-ides.md
       - yt-dlp: software/yt-dlp.md
+      - mpv: software/mpv.md
+    - Package Managers:
+      - Scoop: software/scoop.md
+      - Winget: software/winget.md
+      
+  - OS:
+    - os/index.md
+    - ISOs: os/isos.md
+    - Windows:
+      - Windows resources: os/windows-resources.md
+      - Keyboard shortcuts ↗: misc/keyboard-shortcuts#windows
+    - Linux:
+      - Linux Resources: misc/linux-resources.md
+    - Android: os/android-resources
+
   - Games:
     - games/index.md
     - Minecraft:

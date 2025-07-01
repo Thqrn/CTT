@@ -24,4 +24,4 @@ I also recommend the following:
 
 # Configuration
 
-Defaults are fine you can use 
+Disable V-Sync, disable advancement toasts, if you know more things to tweak [let me know](/contact)

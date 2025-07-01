@@ -233,7 +233,11 @@ If you want to see how much the encoding process slows down rendering speed, try
 
 Makes FFmpeg output the rendered video live to ffplay, a video player which is almost always shipped alongside FFmpeg.
 
-It can be closed off without crashing, sometimes an error will show, but it doesn't effect if your video is rendered or not.
+Press <kbd>F</kbd> to toggle fullscreen, <kbd>SPACE</kbd> to pause, <kbd>ESC</kbd> or <kbd>q</kbd> to quit
+
+It can be closed without crashing, sometimes an error will show, but it doesn't affect if your video is rendered or not.
+
+It has a few other miscellaneous [keyboard shortcuts](https://ffmpeg.org/ffplay.html#While-playing)
 
 `enabled`: no
 
@@ -245,7 +249,7 @@ It can be closed off without crashing, sometimes an error will show, but it does
 
 `output args`: -f yuv4mpegpipe -
 
-:   Additional arguments to append to ffmpeg's arguments to create a second output stream.
+:   Additional arguments to append to ffmpeg's arguments to create a second output stream, you can find modify the ffplay arguments in [[miscellaneous]](#miscellaneous)
 
 ## :fontawesome-regular-object-ungroup: artifact masking { #artifact-masking }
 
@@ -274,6 +278,10 @@ They're resolution specific, Smoothie will crash if you pair 1280x720 videos wit
 
 ## :material-dots-horizontal: miscellaneous { #miscellaneous }
 
+`source plugin`: lsmash
+
+:   Which VapourSynth source plugin to use, either [`ffms2`](https://github.com/FFMS/ffms2), [`lsmash`](https://github.com/AkarinVS/L-SMASH-Works) or [`bestsource`](https://github.com/vapoursynth/bestsource), the latter may work better with AV1, but is much slower to index, if you lsmash works and you mind the long bestsource indexing times, switch to lsmash
+
 `play ding`: no
 
 :   Supposed to play `C:\Windows\Media\ding.wav` with ffplay once Smoothie is done rendering, not yet implemented from smoothie-py.
@@ -300,7 +308,7 @@ They're resolution specific, Smoothie will crash if you pair 1280x720 videos wit
 
 `ffplay options`: -loglevel quiet -i - -autoexit -window_title smoothie.preview
 
-:   Arguments first passed to ffplay when the preview window is enabled.
+:   Arguments passed to ffplay when the [preview window](#preview-window) is enabled, see [ffplay.html#Main-options](https://ffmpeg.org/ffplay.html#Main-options)
 
 ## :material-console: console { #console }
 

@@ -9,6 +9,7 @@ Some developers (notably Tellinq and Shon) continued CheatBreaker unofficially a
 * :material-web: <https://cheatbreaker.net>
 * :simple-discord: <https://discord.gg/cheatbreaker-633325309395206156>
 * :simple-archlinux:{ .archblue } <https://aur.archlinux.org/packages/cheatbreaker>
+    * ALWAYS do CleanBuild, the release filename is always the same and is not re-downloaded by default
 * :octicons-book-16: <https://docs.cheatbreaker.net>
 
 # Features

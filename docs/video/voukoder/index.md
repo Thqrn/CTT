@@ -4,6 +4,17 @@ icon: custom/voukoder
 
 # What is Voukoder?
 
+!!! danger "IMPORTANT: Voukoder is not available anymore"
+
+    Vouk has deleted all releases of Voukoder, and is promoting [it's graph-based successor](https://www.voukoder.org/), on sale for 69EUR with a 14 day limited trial license.
+
+    If you have existing Core and Connector installations, they still work, but Vouk left no available archives
+
+    * The core is licensed under GPL, which anyone could bring back to life with updated ffmpeg dependencies (be careful with the branding, Vouk made that clear on the discord)
+    * The connectors have always been proprietary
+
+    There won't be any redistribution of the connectors unless explicitly permitted by Vouk (which I doubt will ever happen)
+
 Voukoder is a plugin NLEs that lets you export using ffmpeg encoders and filters (notably for [Upscaling](../ffmpeg/upscaling.md))
 
 

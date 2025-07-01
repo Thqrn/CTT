@@ -24,15 +24,25 @@ blur and Smoothie are very similar under the hood, both use VapourSynth with ver
 
 * Smoothie has [flowblur](./recipe.md#artifact-masking)
 
-* Smoothie has [RIFE pre-interpolation](./recipe.md#pre-interp), it's not in blur since [beta v1.92](https://github.com/f0e/blur/releases)
+* Smoothie has [RIFE pre-interpolation](./recipe.md#pre-interp), ~~it's not in blur since [beta v1.92](https://github.com/f0e/blur/releases)~~ it's back!
 
 * A plethora of [CLI arguments](./cli.md)
 
 ## blur pros
 
+* pre-packaged for MacOS ARM and Linux (doable in smoothie as well, it just takes time and interest)
+
+* Instantly preview how the config is gonna look on a frame of a sample video
+
 * Percentage progress and a drag-and drop queue system, I prefered making a file picker for Smoothie
 
 * Global / per folder config system
+
+* In-GUI settings description, instead of docs
+
+* Preview weights graph
+
+* Desktop notifications
 
 ## Terms used
 
@@ -69,7 +79,13 @@ since [beta v1.92](https://github.com/f0e/blur/releases) a lot of the features t
 
 * April 2024: First egui source code was pushed in the smoothie-rs repository
 
-* January 2025: Hqzki/hybridkernel made smoothie-go because « he felt like it »
+* January 2025: Hqzki/hybridkernel made smoothie-go because he felt like it
+
+* March 2025: smoothie-rs releases with a windows installer and GUI
+
+* April 2025: tekno releases blur v2.0, which features a GUI, years after the [initial Electron-based blurGUI](https://github.com/f0e/blurgui)
+
+* May 2025: tekno sets v2.23 as the latest stable release, jumping from v1.8 which released in late 2021
 
 Today blur's new beta makes it's internals more similar to Smoothie than teres was to blur.
 

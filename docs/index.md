@@ -11,10 +11,9 @@ icon: custom/couleurblack
 
 You've reached the website for **Couleur Tweak Tips**, a comprehensive aggregation of useful resources for enthusiasts looking to expand their toolchain of programs and adopt good practices to enhance the quality of life in daily computer use and video production.
 
-These resources have been created with two types of people in mind:
+Amongst recommended programs is documentation for software and scripts I maintain, e.g. [smoothie-rs](./video/smoothie/index.md)
 
-* Curious individuals who enjoy reading, doing, and learning.
-* Those who prefer quickly configuring programs to adhere to recommended standards; some guides offer automated versions in the form of PowerShell scripts.
+If you're looking for another exhaustive list of lists of awesome stuff, see [FMHY](https://fmhy.xyz) and [awesome.re](awesome.re)
 
 This website has been meticulously curated over the years, it evolved from a [crowded discord server](https://discord.gg/ctt)
 
@@ -39,7 +38,11 @@ This website has been meticulously curated over the years, it evolved from a [cr
 </div>
 -->
 
+<!-- for some reason it can't have enough of <a> or else it messes up the html -->
 <center>
-    [![:simple-discord: Join the CTT Discord](https://invidget.switchblade.xyz/CTT)](https://discord.gg/CTT)
+    <a href="https://discord.gg/CTT">
+    <a href="https://discord.gg/CTT">
+        <img align="center" alt="" src="https://invidget.switchblade.xyz/CTT" style="image-rendering: pixelated;">
+    </a>
+    </a>
 </center>
-

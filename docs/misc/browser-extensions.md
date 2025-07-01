@@ -1,6 +1,18 @@
 ---
 icon: material/puzzle-plus
 ---
+
+also see: [FMHY browser tools](https://fmhy.xyz/internet-tools#browser-tools)
+
+## Recursive tabs
+
+Firefox has two extensions/addons that add vertical tabs with recursion support, which makes is way easier to go back and visualize what you browsed through.
+
+* <https://github.com/mbnuqw/sidebery>
+* <https://piro.sakura.ne.jp/xul/_treestyletab.html.en>
+
+![](https://github.com/mbnuqw/sidebery/blob/v5/docs/assets/screenshot-002.png?raw=true)
+
 ## Content alteration
 
 ### :simple-ublockorigin: uBlock Origin
@@ -11,6 +23,8 @@ Also see [Fuck Fuckadblock](https://bogachenko.github.io/fuckfuckadblock/)
 
 [Chrome Store](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 | [Mozilla Addons](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin)
+
+If YouTube ever manages to completely block ad-blockers, [this is a plan B](https://github.com/squgeim/yt-ad-autoskipper)
 
 ### :cookie:  I still don't care about cookies
 
@@ -43,6 +57,8 @@ Uses the YouTube API/databases to get back dislike counts
 ### :arrow_upper_right: Imagus
 
 Enlarges image when you move your cursor over them (I use it all the time, so useful 👍)
+
+Also see [PicViewer CE](https://github.com/bruhov/WinThumbsPreloader/)
 
 [Chrome Store](https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab)
 | [Mozilla Addons](https://addons.mozilla.org/en-US/firefox/addon/imagus)
